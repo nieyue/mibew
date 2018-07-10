@@ -1,3 +1,13 @@
+#php安装
+rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm   
+yum -y install php72w
+yum -y install php72w-cli php72w-common php72w-devel php72w-mysql php72w-mbstring
+#如果是wordpress
+yum -y install php72w-gd php72w-imap php72w-ldap php72w-odbc php72w-pear php72w-xml php72w-xmlrpc
+
+
+
 Mibew Messenger
 Copyright 2005-2017 the original author or authors.
 

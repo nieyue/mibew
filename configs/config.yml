@@ -14,7 +14,7 @@ database:
 
 # Mail
 ## This value will be used as sender address in all e-mails Mibew Messenger send.
-mailbox: mibew@yourdomain.com
+mailbox: 278076304@qq.com
 
 ## Mailer parameters
 mailer:
